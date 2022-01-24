@@ -1,0 +1,14 @@
+5] Find the output and write explanation?
+class Test1 
+{
+	public static void main(String[] args) 
+	{
+		byte b = 127;
+		++b;
+		b++;
+		System.out.println("Value of variable b:"+b);
+	}
+}
+O/P-Value of variable b:-127
+
+The byte data type is an 8-bit signed two’s complement integer. It has a minimum value of -128 and maximum value of 127. So in above program byte b is initialized with value 127 and after increment ++b it’s value become -127 because 127 is the last value so after increment it goes to -127.

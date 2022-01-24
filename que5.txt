@@ -1,0 +1,12 @@
+5] Find the output and write explanation?
+class Main1 
+{
+	public static void main(String[] args) 
+	{
+		int t;
+		System.out.println("Value of variable t:"+t);
+	}
+}
+
+o/p:
+The  output of the program showing one error at the time compilation that is the variable t might not have been initialized. This is due to for accessing any type of data values it must be initialized at the time of variable declaration.
